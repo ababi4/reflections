@@ -3,3 +3,16 @@ Additional .git folder is created with some Git repo metadata.
 
 +++ How is the staging area different from the working directory and the repository? What value do you think it offers?
 It looks like buffer for a developer
+
++++ How can you use the staging area to make sure you have one commit per logical change?
+TBH, dunnow :) But can assume that git diff --staged is very helpful in it
+
++++ What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When new feature is added, but it's untested and may affect badly to the initial code
+
++++ How do the diagrams help you visualize the branch structure?
+I can track the exact commit from which the another branch derived, and it helps me to find out how many new updates are missed
+in this another branch
+
++++ What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All commits from both branches will be in resulting git log
